@@ -24,7 +24,7 @@ To install:
 
 ## 3. Install dependencies for ansible
 To install altogether
-- `apt-cyg install binutils curl gmp libgmp-devel make python python-crypto python-openssl python-setuptools python-devel git nano openssh openssl openssl-devel`
+- `apt-cyg install binutils curl gcc-core gmp libgmp-devel make python python-crypto python-openssl python-setuptools python-devel git nano openssh openssl openssl-devel`
 
 You can also install individually by using
 - `apt-cyg install <package_name>`
