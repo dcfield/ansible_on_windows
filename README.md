@@ -40,3 +40,18 @@ To install
 To test installation
 - `ansible`
 - Should receive list of options
+
+
+# Some configuration
+Cygwin comes with some strange default settings, particularly if using `vi` or `vim`.
+
+Open a `.virc` file.
+- `vi ~/.virc`
+
+Type in
+````
+set nocompatible
+set backspace=2 
+````
+
+Save and we should be good to go!
